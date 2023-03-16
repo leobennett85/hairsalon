@@ -8,18 +8,18 @@ export const router = createBrowserRouter([
   },
   {
     path: "/Portfolio",
-    element: <Portfolio />,
+    element: <>Portfolio</>,
   },
   {
     path: "/Services",
-    element: <Services />,
+    element: <>Services</>,
   },
   {
     path: "/Products",
-    element: <Products />,
+    element: <>Products</>,
   },
   {
     path: "/Testimonials",
-    element: <Testimonials />,
+    element: <>Testimonials</>,
   },
 ]);
