@@ -1,0 +1,7 @@
+.logo {
+    position: fixed;
+    display: flex;
+    top: -30px;
+    left: 0;
+    height: 150px;
+}
