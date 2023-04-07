@@ -6,9 +6,15 @@ const Intro = () => {
   return (
   <>
   <div className="container-banner">
-  <video className='videoTag' autoPlay loop muted>
-    <source src={sample} type='video/mp4' />
-  </video>
+    <div className="container-Tagline">
+      oeubw
+    </div>
+
+    <div className="container-videoTag">
+      <video className='videoTag' autoPlay loop muted>
+        <source src={sample} type='video/mp4' />
+      </video>
+    </div>    
     
   </div>
   </>
