@@ -8,14 +8,15 @@ import Bottombar from "./Bottombar/Bottombar";
 
 const Home = () => {
     return (
-        <>        
+        <>   
+    
         <Topbar />
         <Navbar />
         <Intro />
         <Bottombar />
-        <div className="logo">
-            <img src={Logo} />
-        </div>
+        <div>
+            <img src={Logo} className="logo" />
+        </div> 
         </>
     )
 }

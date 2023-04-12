@@ -1,0 +1,217 @@
+@-webkit-keyframes logomorph {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.75;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes logomorph {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.75;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes logomorph {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.75;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes logomorph {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.75;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes logomorphsimple {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes logomorphsimple {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes logomorphsimple {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes logomorphsimple {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#mainlogo {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosimple {
+    position: fixed;
+
+    -webkit-animation-name: logomorphsimple;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: logomorphsimple;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-duration: 4s;
+    -moz-animation-direction: normal;
+    -moz-animation-fill-mode: forwards;
+
+    -o-animation-name: logomorphsimple;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    -o-animation-duration: 4s;
+    -o-animation-direction: normal;
+    -o-animation-fill-mode: forwards;
+
+    animation-name: logomorphsimple;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.logomain {
+    position: fixed;
+
+    -webkit-animation-name: logomorph;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: logomorph;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-duration: 4s;
+    -moz-animation-direction: normal;
+    -moz-animation-fill-mode: forwards;
+
+    -o-animation-name: logomorph;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    -o-animation-duration: 4s;
+    -o-animation-direction: normal;
+    -o-animation-fill-mode: forwards;
+
+    animation-name: logomorph;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}

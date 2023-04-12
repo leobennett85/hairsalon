@@ -1,4 +1,3 @@
-import React from "react";
 import sample from './vid.mp4';
 import "./Intro.css";
 

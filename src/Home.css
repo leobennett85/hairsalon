@@ -1,7 +1,7 @@
 .logo {
     position: fixed;
     display: flex;
-    top: -30px;
+    height: 100px;
+    top: 0px;
     left: 0;
-    height: 150px;
 }
