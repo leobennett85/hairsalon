@@ -1,0 +1,35 @@
+body {
+    text-align: center
+}
+
+/*
+.logo {
+    animation: logo 1s linear .1s infinite;
+    transform-origin: center
+}
+
+@keyframes logo {
+    0% {
+        transform: scaleY(1)
+    }
+
+    25% {
+        transform: scaleY(0.3)
+    }
+
+    50% {
+        transform: scaleY(0.7)
+    }
+
+    75% {
+        transform: scaleY(0.15)
+    }
+}
+*/
+.newpath {
+    display: inline;
+    stroke: #0015ff;
+    stroke-width: 15;
+    stroke-dasharray: none;
+    stroke-opacity: 1
+}

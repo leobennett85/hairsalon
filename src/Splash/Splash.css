@@ -165,7 +165,7 @@
     -moz-animation-name: logomorphsimple;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: 1;
-    -moz-animation-duration: 4s;
+    -moz-animation-duration: 10s;
     -moz-animation-direction: normal;
     -moz-animation-fill-mode: forwards;
 
@@ -179,7 +179,7 @@
     animation-name: logomorphsimple;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
