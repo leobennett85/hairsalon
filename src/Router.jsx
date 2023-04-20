@@ -2,13 +2,12 @@ import { createBrowserRouter } from "react-router-dom";
 import Splash from "./pages/Splash/Splash";
 import Home from "./pages/Home";
 import SvgLogo from "./pages/SVGPRACTICE/SvgLogo";
-import Test from "./TEST/Test";
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Splash />,
   },
   {
     path: "/Splash",

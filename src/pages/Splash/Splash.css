@@ -1,3 +1,152 @@
+#mainlogo {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#introcredentials {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 5%;
+}
+
+#introhook1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+}
+
+#introhook2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 15%;
+}
+
+.introbegin {
+    font-family: fantasy;
+    font-size: clamp(1rem, 0.5rem + 2.5vw, 3rem);
+    color: #000;
+}
+
+.animatecredentials {
+    animation-name: credentialsmorph;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.animatehook1 {
+    animation-name: hook1morph;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.animatehook2 {
+    animation-name: hook2morph;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes credentialsmorph {
+    0% {
+        font-size: 10rem;
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    25% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+
+    }
+
+    75% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+@keyframes hook1morph {
+    0% {
+        top: 150%;
+        font-size: 3rem;
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    25% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+
+    }
+
+    75% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        top: 10%;
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+@keyframes hook2morph {
+    0% {
+        top: 150%;
+        font-size: 3rem;
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    25% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+
+    }
+
+    75% {
+        color: transparent;
+        background-image: linear-gradient(135deg, rgb(255, 45, 45), rgb(177, 229, 255), rgb(68, 255, 80), rgb(255, 58, 255));
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        top: 15%;
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+/* browser handling
 @-webkit-keyframes logomorph {
     0% {
         opacity: 0;
@@ -51,18 +200,15 @@
         opacity: 1;
     }
 }
+*/
 
 @keyframes logomorph {
     0% {
         opacity: 0;
     }
 
-    25% {
-        opacity: 0.75;
-    }
-
-    75% {
-        opacity: 0.9;
+    50% {
+        opacity: 0.1
     }
 
     100% {
@@ -70,7 +216,7 @@
     }
 }
 
-
+/* browser handling
 @-webkit-keyframes logomorphsimple {
     0% {
         opacity: 1;
@@ -124,18 +270,14 @@
         opacity: 0;
     }
 }
-
+*/
 @keyframes logomorphsimple {
     0% {
         opacity: 1;
     }
 
-    25% {
-        opacity: 0.1;
-    }
-
-    75% {
-        opacity: 0;
+    50% {
+        opacity: 0.9
     }
 
     100% {
@@ -143,18 +285,9 @@
     }
 }
 
-#mainlogo {
-    position: absolute;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
 .logosimple {
     position: fixed;
-
+    /* browser handling
     -webkit-animation-name: logomorphsimple;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
@@ -175,7 +308,7 @@
     -o-animation-duration: 4s;
     -o-animation-direction: normal;
     -o-animation-fill-mode: forwards;
-
+*/
     animation-name: logomorphsimple;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -186,7 +319,7 @@
 
 .logomain {
     position: fixed;
-
+    /* browser handling
     -webkit-animation-name: logomorph;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
@@ -207,11 +340,11 @@
     -o-animation-duration: 4s;
     -o-animation-direction: normal;
     -o-animation-fill-mode: forwards;
-
+*/
     animation-name: logomorph;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
