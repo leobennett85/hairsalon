@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import Topbar from "./Topbar/Topbar";
+import Topbar from "../components/Topbar/Topbar";
 // import Logo from "./images/logo.svg";
-import Intro from "./Intro/Intro";
-import Navbar from "./Navbar/Navbar";
-import Bottombar from "./Bottombar/Bottombar";
+import Intro from "../components/Intro/Intro";
+import Navbar from "../components/Navbar/Navbar";
+import Bottombar from "../components/Bottombar/Bottombar";
 
 const Home = () => {
     return (

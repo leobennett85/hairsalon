@@ -1,6 +1,6 @@
 import "./Splash.css";
-import Logo from "../images/logo.svg";
-import SimpleLogo from "../images/SimpleLogo.svg";
+import Logo from "../../images/Logo.svg";
+import SimpleLogo from "../../images/SimpleLogo.svg";
 
 
 const Splash = () => {
