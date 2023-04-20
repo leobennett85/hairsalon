@@ -2,10 +2,13 @@ body {
     text-align: center
 }
 
-/*
+
 .logo {
-    animation: logo 1s linear .1s infinite;
-    transform-origin: center
+    position: fixed;
+    display: flex;
+    height: 900px;
+    top: 0px;
+    left: 0;
 }
 
 @keyframes logo {
@@ -25,7 +28,7 @@ body {
         transform: scaleY(0.15)
     }
 }
-*/
+
 .newpath {
     display: inline;
     stroke: #0015ff;
