@@ -10,10 +10,6 @@ export const router = createBrowserRouter([
     element: <Splash />,
   },
   {
-    path: "/Splash",
-    element: <Splash />,
-  },
-  {
       path: "/SvgLogo",
       element: <SvgLogo />,
   },
