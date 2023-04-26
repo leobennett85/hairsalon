@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Topbar from "../components/Topbar/Topbar";
-// import Logo from "./images/logo.svg";
 import Intro from "../components/Intro/Intro";
 import Navbar from "../components/Navbar/Navbar";
 import Bottombar from "../components/Bottombar/Bottombar";
