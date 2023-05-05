@@ -7,8 +7,14 @@ const Splash = () => {
 
     return (
         <>
-            <SplashLogo />
-            <Nameswipe />
+        <div id="introContainer">
+            <div id="splashLogoContainer">
+                <SplashLogo />
+            </div>
+            <div id="nameSwipeContainer">
+                <Nameswipe />
+            </div>
+        </div>
         </>
     )
 }

@@ -8,11 +8,25 @@ const SplashLogo = () => {
     return (
         <>
         <motion.img
-            animate={{
-                x: '100vh'
-            }}
+                className="logo"
+                initial={{ opacity: 0, scale: 1 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 6,
+                  delay: 0.5,
+                  ease: [0.25, 0.50, 0.75, 1]
+                }}
             src={Logo} />
-        <img src={SimpleLogo} />
+        <motion.img
+                className="logo"
+                initial={{ opacity: 1, scale: 1 }}
+                animate={{ opacity: 0, scale: 1 }}
+                transition={{
+                  duration: 6,
+                  delay: 0.5,
+                  ease: [0.25, 0.50, 0.75, 1]
+                }}
+            src={SimpleLogo} />
         </>
     );
 };
