@@ -1,3 +1,14 @@
-.introcontainer {
-    font-size: large;
+#introContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#splashLogoContainer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
 }
