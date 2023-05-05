@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 const SplashLogo = () => {
     return (
         <>
-        <Dazzle />
         <motion.img
             animate={{
                 x: '100vh'
