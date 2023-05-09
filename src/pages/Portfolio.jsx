@@ -1,20 +1,24 @@
 import React from "react";
-import "./Home.css";
-import Topbar from "./Topbar/Topbar";
-import Logo from "./images/logo.svg";
-import Navbar from "./Navbar/Navbar";
-import Bottombar from "./Bottombar/Bottombar";
+import "./Portfolio.css";
+import Topbar from "../components/Topbar/Topbar";
+import Intro from "../components/Intro/Intro";
+import Navbar from "../components/Navbar/Navbar";
+import Bottombar from "../components/Bottombar/Bottombar";
 
 const Portfolio = () => {
     return (
-            <>        
+        <>   
+    
         <Topbar />
         <Navbar />
         <Bottombar />
-        <div className="logo">
-            <img src={Logo} />
-        </div>
-        </>)
+        {/*
+        <div>
+            <img src={Logo} className="logo" />
+        </div> 
+    */}
+        </>
+    )
 }
 
 export default Portfolio

@@ -1,6 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Splash from "./pages/Splash/Splash";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Services from "./pages/Services";
+import Products from "./pages/Products";
+import Testimonials from "./pages/Testimonials";
 
 
 export const router = createBrowserRouter([
@@ -14,18 +18,18 @@ export const router = createBrowserRouter([
   },
   {
     path: "/Portfolio",
-    element: <>Portfolio</>,
+    element: <Portfolio />,
   },
   {
     path: "/Services",
-    element: <>Services</>,
+    element: <Services />,
   },
   {
     path: "/Products",
-    element: <>Products</>,
+    element: <Products />,
   },
   {
     path: "/Testimonials",
-    element: <>Testimonials</>,
+    element: <Testimonials />,
   },
 ]);
