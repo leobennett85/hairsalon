@@ -7,7 +7,7 @@ const Splash = () => {
     const navigate = useNavigate();
     return (
         <>
-        <a href="" onClick={()=>navigate("/Home")} className="text-navbar">Home</a>
+        <a href="" onClick={()=>navigate("/Home")} className="text-navbar">
         <div id="introContainer">
             <div id="splashLogoContainer">
                 <SplashLogo />
@@ -16,6 +16,7 @@ const Splash = () => {
                 <Nameswipe />
             </div>
         </div>
+        </a>
         </>
     )
 }
